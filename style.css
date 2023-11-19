@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.logo {
+    position: absolute;
+    right: 20px;
+}
+
+table {
+    margin: 30px 0;
+    border-collapse: collapse;
+    height: 400px;
+    width: 915px;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+table tr td {
+    background-color: white;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    text-decoration: none;
+
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+    text-align: right;
+    padding-right: 10px;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    text-align: right;
+    padding-left: 20px;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    text-align: right;
+    padding-left: 10px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    text-align: center;
+    padding-left: 20px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+td:nth-child(2) {
+    padding-left: 30px;
+    color: rgb(156, 156, 156);
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+
+    padding-left: 15px;
+}
+
+.inn,
+.score {
+    background-color: #F05033;
+    color: white;
+}
+
+th {
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(211, 208, 208);
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(44, 152, 240);
+}
+
+.score {
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+
+
+h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+
+
+h4 {
+    color: gray;
+    font-size: 20px;
+    margin-top: -30px;
+
+}
+
+.footer{
+    margin-left: 5px;
+}
